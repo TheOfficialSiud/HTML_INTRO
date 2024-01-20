@@ -1,10 +1,25 @@
 
 .image{
     width: 100%;
+    
+    bottom: 0px;
+    
    
     
 }
-
+.time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    bottom: 9px;
+    right: 9px;
+    font-size: 12px;
+    padding: 3px;
+    opacity: 0.75;   
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
 
 .video-title{
     font-weight: bold;
@@ -20,6 +35,8 @@
     display: inline-block;
     width: 100%;
     cursor: pointer;
+    position: relative;
+  
 }
 
 .profile{
@@ -33,6 +50,8 @@
 }
 .thumbanil-row{
     margin-bottom: 10px;
+    position: relative;
+   
 }
 .video-grid{
     display: grid;
