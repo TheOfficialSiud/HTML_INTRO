@@ -1,0 +1,42 @@
+
+.image{
+    width: 100%;
+   
+    
+}
+
+
+.video-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.video-author,.video-stats{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.image-preview{
+   vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.profile{
+    width: 35px;
+    border-radius: 20px;
+}
+.description-row{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.thumbanil-row{
+    margin-bottom: 10px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 10px;
+}
