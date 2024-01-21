@@ -13,7 +13,15 @@
 
 }
 
-
+.search-button img{
+    height:35px; width:40px
+}
+.mic img{
+    display: inline-block;
+     margin: 0; 
+     height: 45px; 
+     width: 45px;
+}
 .left-section{
     width: 200px;
     
